@@ -13,3 +13,12 @@ function ageInDays() {
 function reset(){
     document.getElementById('ageInDays').remove();
 }
+
+// Challenge 2: Cat Generator
+
+function generateCat() {
+    var image = document.createElement('img');
+    var div = document.getElementById('flex-cat-gen');
+    image.src = "https://cdn2.thecatapi.com/images/4do.gif";
+    div.appendChild(image);
+}
